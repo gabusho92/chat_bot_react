@@ -1,0 +1,65 @@
+.containerModal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+}
+
+.modalWindow {
+    color: black;
+    width: 300px;
+    min-height: 450px;
+    background: white;
+    border-radius: 5px;
+    position: relative;
+}
+
+.modalHeader{
+    background: black;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    padding: 10px;
+
+   
+}
+
+.modalTitle{
+    font-size: 20px;
+}
+
+.modalClose{
+    font-size: 20px;
+    position: absolute;
+    left: 90%;
+    cursor: pointer;
+
+}
+
+.modalChatContainer {
+    margin: 5px;
+    min-height: 400px;
+}
+
+.messageBot{
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+
+.messageUser {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    
+    
+}
+
+.messageUser:hover {
+    background: rgb(0, 0, 0, 0.5);
+}
